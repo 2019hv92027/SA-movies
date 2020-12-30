@@ -1,0 +1,13 @@
+server:
+    port: 9008
+    servlet:
+        context-path: /Service
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+queueName: movie
+exchange: movie
+routinekey: routinekey
